@@ -1,0 +1,2 @@
+#!/bin/sh
+g++ -std=c++20 osc2shaderstream.cpp -o osc2shaderstream -I/usr/include/gstreamer-1.0 -I/usr/include/opencv4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -L/usr/lib -llo -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_videoio -lgstreamer-1.0 -lEGL -lGLESv2
